@@ -1,0 +1,692 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+body{
+	background-color:#f5f5f5;
+}
+
+
+
+.logo{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+	padding:0.5em 0.3em;
+	background-color:black;
+	opacity:90%;
+	position:fixed;
+	top:0;
+	font-size:1.5em;
+	z-index:1;
+}
+.logo a{
+	text-decoration:none;
+	margin:0em 0.5em;
+	display:inline-block;
+}
+.logo h2,a{ 
+color:white;
+}
+.logo nav a:hover{
+	border-bottom:2px solid white;
+	
+}
+.logoimg{
+	width:100%;
+	height:100vh;
+	background-size:cover;
+	background-image:url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/hero-bg.jpg);
+	background-attachment:fixed;
+}
+.name1{
+	color:white;
+	
+	padding:20em 0 0 25em;
+}
+.name1 h2{
+	font-size:4em;
+}
+.name1 h3{
+	font-size:2em;
+	padding:1em 0 0 7em;
+}
+
+
+
+.section2{
+	width:80%;
+	margin: 2em auto;
+	display:flex;
+	justify-content:space-evenly;
+	box-shadow:0 0 8px gray;
+	background-color:white;
+}
+.section2-content1{
+	width:50%;
+	margin-left:3em;
+	
+	
+}
+.section2-content2{
+	width:50%;
+	padding:4em 4em 0 0;	
+	
+}
+.section2-content2 article div h2{
+	position:relative;
+}
+ .section2-content2  article div h2::after{
+	content:"";
+	position:absolute;
+	border-bottom:5px solid aqua;
+	width:12%;
+    bottom:15%;
+	left:0%;
+}
+.section2-content2 h2{
+	padding:1em 0;
+}
+.section2-content2 p{
+	line-height:2em;
+	padding: 0 0 3em;
+}
+.image-bio{
+	width:80%;
+	display:flex;
+	padding:1em 0 2em 1em;
+}
+.image img{
+	width:100%;
+}
+.image{
+	width:30%;
+	padding:0 0 0 3em;
+}
+.bio{
+	width:60%;
+	padding:1em 0 0 4em;
+}
+.bio p{
+	padding:1em 0 0;
+}
+.skills{
+	width:70%;
+	display:flex;
+	flex-direction:column;
+	padding-left:4em ;
+}
+.skills progress{
+	width:100%;
+	padding:1em 0 0 2em ;
+	margin:1em 0 ;
+}
+.skills h3{
+	padding:0 0 2em 0;
+}
+
+
+
+
+@media (min-width:320px){
+	.services-para{
+		width:100%;
+	}
+	
+	
+}
+@media (min-width:600px){
+	
+	.services-para{
+		width:100%;
+	}
+	
+}
+@media (min-width:1025px){	
+	.services-para{
+		width:28%;
+	}
+}
+
+.services{
+	width:90%;
+	height:;
+	margin: 5em auto;
+	text-align:center;
+}
+.services-para{
+	
+	padding:2em 0;
+	line-height:2em;
+    margin:2em 0;
+    background-color:white;	
+	border-radius:1%;
+	
+}
+.services-content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+.services h1{
+	padding:0 0 0.2em;
+	font-size:2em;
+}
+.services-para p{
+	padding:1em 0;
+}
+.services-icon{
+	border-radius:50%;
+	border:7px solid #3db7e5;
+	font-size:2em;
+	width:3em;
+	height:3em;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	
+}
+ .services-para:hover .services-icon{
+	background-color:blue;
+	border-color:skyblue;
+	color:white;
+	transition:all 1s ease;
+}
+.services-para h2{
+	padding:1em 0 1em;
+}
+.servicesp p{
+	position:relative;
+}
+.servicesp p::after{
+	content:"";
+	position:absolute;
+	width:4%;
+	border-top:4px solid blue;
+	bottom:-1em;
+	left:48%;
+}
+
+
+@media (min-width:320px){
+	.blue-i{
+		width:100%;
+	}
+	.blue-image{
+		height:fit-content;
+	}
+	.blue{
+		height:fit-content;
+	}
+	
+}
+@media (min-width:600px){
+	
+	.blue-i{
+		width:20%;
+	}
+	.blue-image{
+		height:70vh;
+	}
+	.blue{
+		height:70vh;
+	}
+	
+}
+@media (min-width:1025px){	
+	.blue-i{
+		width:20%;
+	}
+	.blue-image{
+		height:70vh;
+	}
+	.blue{
+		height:70vh;
+	}
+	
+}
+.blue-image{
+	background-image:linear-gradient(#1fb5eed4, #1fd5eed4),url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/counters-bg.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	
+	background-size:cover;
+	background-attachment:fixed;
+
+
+}
+.blue{
+	width:100%;
+	
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	align-items:center;
+	margin:auto;
+	
+}
+.blue-icon{
+	
+	border-radius:50%;
+	border:8px solid white;
+	width:4.5em;
+	height:4.5em;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:auto;
+	font-size:1.5em;
+}
+.blue-i{
+	text-align:center;
+	color:white;
+}
+.blue-i h1{
+	padding:0.5em 0;
+}
+
+@media (min-width:320px){
+	.portfolio-image{
+		width:95%;
+	}
+}
+
+@media (min-width:600px){
+	.portfolio-image{
+		width:95%;
+	}
+}
+@media (min-width:1025px){
+	.portfolio-image{
+		width:28%;
+	}
+}
+.portfolio{
+	width:90%;
+	height:auto;
+	background:#f5f5f5;
+	text-align:center;
+	margin:4em auto;
+}
+.portfolio h1{
+	font-size:3em;
+	padding:0 0 5px;
+
+}
+.portfolio-image img{
+	width:100%;
+}
+.portfolio-image{
+	
+	margin:1em 0;
+    box-shadow:0 0 7px black;	
+}
+.portfolio-design{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	margin:2em 0;
+}
+.portfolio-para p{
+	padding:0 0 0 2em;
+}
+.portfolio-para h2{
+	padding: 0 0 .5em;
+}	
+.portfolio-i{
+    font-size:1.5em;
+	color:#0078ff;
+	margin:0 1em;
+	border:2px solid #0078ff;
+	border-radius:50%;
+	width:1.5em;
+	height:1.5em;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.portfolio-paragon{
+	display:flex;
+	justify-content:space-between;
+	background-color:white;
+	align-items:center;
+	padding:2em 0;
+}
+.portfolio-pic img:hover{
+	transform:scale(1.2);
+	transition:all 1s ease;
+		
+}
+.portfolio-pic{
+	overflow:hidden;
+}
+.portfolio-para span{
+	color:skyblue;
+}
+.tamil p{
+	position:relative;
+}
+.tamil p::after{
+	content:"";
+	position:absolute;
+	border-bottom:5px solid blue;
+	width:3%;
+	bottom:-50%;
+	left:48%;
+}
+
+
+
+.red{
+	background-image:linear-gradient(#1fb5eed4,#18b5f147),url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg);
+    width:100%;
+	height:80vh;
+	background-attachment:fixed;
+	background-size:cover;
+	margin: auto;
+	position:relative;
+}
+.red:after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	border-radius:50%;
+	width:13px;
+	height:13px;
+	bottom:20%;
+	left:50%;
+}
+.red:before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	border-radius:50%;
+	width:13px;
+	height:13px;
+	bottom:20%;
+	right:50%;
+}
+
+.red-image img{
+	border-radius:50%;
+}
+.red-imagepara{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:6em 0;
+	color:white;
+}
+.red-para h2{
+	text-align:center;
+	padding:1em 0;
+}
+
+
+
+
+.blog{
+	width:90%;
+	margin: 3em auto;
+}
+.blog-pictures{
+	display:flex;
+	justify-content:space-between;
+}
+.blog-image img{
+	width:100%;
+}
+.blog-image{
+    position:relative;
+}
+.blog-button p{
+	position:absolute;
+	background-color:#0078ff;
+	color:white;
+	right:37.5%;
+	bottom:-2%;
+	width:25%;
+	height:4vh;
+	border-radius:10%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:small;
+	
+}
+.blog-imagepara{
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	border:.5px solid gray;
+	border-radius:1%;
+	box-shadow:0 8px 6px -6px gray;
+}
+.blog-photo{
+	display:flex;
+	align-items:center;
+	padding:0 0 1em 1em;
+}
+.blog-photo p{
+	font-size:small;
+	padding:0 0 0 0.5em;
+}
+.blog-icon{
+	display:flex;
+	align-items:center;
+    padding:0 1em 1em;
+}
+.blog-photoicon{
+	display:flex;
+	justify-content:space-between;
+	position:relative;
+	padding:1em 0 0;
+}
+.blog-photo img{
+	width:25px;
+	height:25px;
+	border-radius:50%;
+}
+.para h2{
+	padding:1em 0;	
+}
+.para p{
+	line-height:1.5em;
+	padding:0 0 2em;
+}
+.blog-photoicon::before{
+	content:"";
+	position:absolute;
+	border-bottom:1px solid gray;
+	width:100%;
+	top:0%;
+	right:0%;
+}
+.para{
+	padding:0 0 0 1em;
+	margin:0;
+	background-color:white;
+}
+.blog-head{
+	text-align:center;
+	margin:0 0 4em;
+}
+.blog-head h1{
+	padding:0.5em 0;
+}
+.blog-head p{
+	position:relative;
+}
+.blog-head p::after{
+	content:"";
+	position:absolute;
+	border-bottom:5px solid blue;
+	width:3%;
+	bottom:-50%;
+	left:48%;
+	
+}
+.blog-photo p:hover{
+	color:skyblue;
+}
+.para h2:hover{
+	color:skyblue;
+}
+
+
+
+.black{
+	background-image:linear-gradient(#1fb5eed4,#18b5f147),url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg);
+    width:100%;
+	height:100vh;
+	background-attachment:fixed;
+	background-size:cover;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.black-container{
+	display:flex;
+	width:80%;
+	height:auto;
+	margin:auto;
+	background-color:white;          
+	font-family:medium;
+	padding:2em;
+}
+.black-content1{
+	width:50%;
+	padding:;
+}
+.black-content1 h1{
+	position:relative;
+	font-size:xxxxlarge;
+}
+.black-content1 h1::after{
+	content:"";
+	position:absolute;
+	border-bottom:4px solid blue;
+	width:15%;
+	bottom:-20%;
+	left:0%;
+}
+.black-content2{
+	width:50%;
+	padding:;
+}
+.black-content2 h1{
+	position:relative;
+}
+.black-content2 h1::after{
+	content:"";
+	position:absolute;
+	border-bottom:4px solid blue;
+	width:15%;
+	bottom:-20%;
+	left:0%;
+}
+.black-king input{
+	width:90%;
+	height:2.5em;
+	margin:1em 0;
+}
+.black-king textarea{
+	width:90%;
+	margin:1em 0;
+}
+.black-para{
+	padding:2em 4em 1em 0;
+	line-height:2em;
+}
+.black-content2 h1{
+	padding:;
+}
+.black-button button{
+	margin:auto;
+	padding:1em 2em;
+	background-color:#0078ff;
+	border-radius:3em;
+	border-color:#0078ff;
+	color:white;
+	cursor:pointer;
+}
+.black-button button:hover{
+	background-color:#0062d3;
+}
+
+.black-button{
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.black-queen{
+	display:flex;
+	padding:0.7em 0;
+}
+.black-queen address{
+	padding:0 0 0 2em;
+}
+.black-form{
+	margin:2em 0;
+}
+.black-social i{
+	border:4px solid blue;
+	border-radius:50%;
+	font-size:1em;
+	color:black;
+	width:3em;
+	height:3em;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.black-social li{
+	display:inline-block;
+}
+.black-social{
+	padding:1em 0;
+}
+.black-social i:hover{
+	background-color:blue;
+	color:white;
+	border-color:skyblue;
+	transition:1s all ease;
+}
+.black-queen i{
+	color:skyblue;
+}
+
+.footer{
+	text-align: center;
+    color: #fff;
+    padding:3em 0;
+    background: #0062d3;
+	position:relative;
+	
+}
+.footer a{
+	text-decoration:none;
+}
+.gototop a{
+	text-decoration:none;
+}
+.gototop{
+	background-color:blue;
+	width:3em;
+	height:3em;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:fixed;
+	bottom:2%;
+	right:2%;
+	
+}
